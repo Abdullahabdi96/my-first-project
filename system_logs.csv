@@ -1,0 +1,21 @@
+timestamp,host,user,event_type,message
+2026-06-01 08:00:00,server1,admin,login,Successful login
+2026-06-01 08:05:00,server1,admin,file_access,Opened normal config file
+2026-06-01 08:10:00,server2,user1,login,Successful login
+2026-06-01 08:15:00,server2,user1,file_access,Opened user document
+2026-06-01 08:20:00,server3,user2,network,Normal outbound traffic
+2026-06-01 08:25:00,server1,admin,config_change,Updated system setting
+2026-06-01 08:30:00,server2,user3,login,Successful login
+2026-06-01 08:35:00,server2,user3,file_access,Opened shared folder
+2026-06-01 08:40:00,server3,user4,network,Normal internal traffic
+2026-06-01 08:45:00,server1,admin,login,Successful login
+2026-06-01 08:50:00,server4,guest,login,Failed login attempt
+2026-06-01 08:55:00,server4,guest,login,Failed login attempt
+2026-06-01 09:00:00,server4,guest,login,Failed login attempt
+2026-06-01 09:05:00,server5,root,file_access,Accessed sensitive backup archive
+2026-06-01 09:10:00,server5,root,network,Large outbound traffic detected
+2026-06-01 09:15:00,server5,root,config_change,Disabled logging service
+2026-06-01 09:20:00,server2,user1,file_access,Opened user document
+2026-06-01 09:25:00,server3,user2,network,Normal outbound traffic
+2026-06-01 09:30:00,server1,admin,login,Successful login
+2026-06-01 09:35:00,server6,unknown,process,Unexpected process started

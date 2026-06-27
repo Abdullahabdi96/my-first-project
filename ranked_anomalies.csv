@@ -1,0 +1,2 @@
+timestamp,host,user,event_type,message,hour,day_of_week,message_length,user_event_count,host_event_count,event_type_count,host_encoded,user_encoded,event_type_encoded,prediction,anomaly_score
+2026-06-01 09:35:00,server6,unknown,process,Unexpected process started,9,0,26,1,1,1,5,3,4,-1,0.07863907819340898
